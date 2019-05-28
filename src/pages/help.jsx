@@ -4,7 +4,7 @@ import Slides from "../components/slides"
 import Section from "../components/section"
 import Header from "../components/header"
 
-export default class Index extends Component{
+export default class Help extends Component{
   render(){
     return(
         <Slides>

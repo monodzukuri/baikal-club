@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import { Link } from "gatsby"
 
 import Slides from "../components/slides"
 import Section from "../components/section"
@@ -61,7 +62,7 @@ export default class IndexRoute extends Component{
               </li>
             </ul>
           </div>
-          <button className="button small uppercase round stroke flat white margin-top-4 ae-8">О клубе</button>
+          <Link to="/about" className="button small uppercase round stroke flat white margin-top-4 ae-8">О клубе</Link>
         </Section>
 
         <Section
@@ -91,7 +92,7 @@ export default class IndexRoute extends Component{
                 </a>
               </li>
               <li className="col-3-12">
-                <a className="box-77 ae-4">
+                <div className="box-77 ae-4">
                   <div className="thumbnail-77" data-popup-id="77-2">
                     <img src="img/baikalcamp.jpg" alt="Picture" className="wide"/>
                   </div>
@@ -103,10 +104,10 @@ export default class IndexRoute extends Component{
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
               </li>
               <li className="col-3-12">
-                <a href="#" className="box-77 ae-5">
+                <div className="box-77 ae-5">
                   <div className="thumbnail-77">
                     <img src="img/health.jpg" alt="Picture" className="wide"/>
                   </div>
@@ -118,10 +119,10 @@ export default class IndexRoute extends Component{
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
               </li>
               <li className="col-3-12">
-                <a href="#" className="box-77 ae-6">
+                <div className="box-77 ae-6">
                   <div className="thumbnail-77">
                     <img src="img/office.jpg" alt="Picture" className="wide"/>
                   </div>
@@ -133,7 +134,7 @@ export default class IndexRoute extends Component{
                       </div>
                     </div>
                   </div>
-                </a>
+                </div>
               </li>
             </ul>
           </div>
@@ -147,42 +148,42 @@ export default class IndexRoute extends Component{
           <div className="fix-12-12 ae-1">
             <div className="swiper-container-4">
               <div className="swiper-wrapper">
-                <a href="#" className="box-99 swiper-slide cursorGrab">
+                <div className="box-99 swiper-slide cursorGrab">
                   <div className="thumbnail-99 disableSelect">
                     <img src="img1-199.png" alt="Picture" className="wide"/>
                     <p className="title-slide-99">Программа общего собрания клуба 6 апреля</p>
                     <p className="date-slide-99"><img src="time.png"/><span>31 Мар 2019</span></p>
                     <div className="blackout-sl-4"></div>
                   </div>
-                </a>
-                <a href="#" className="box-99 swiper-slide cursorGrab">
+                </div>
+                <div className="box-99 swiper-slide cursorGrab">
                   <div className="thumbnail-99 disableSelect">
                     <img src="img2-199.png" alt="Picture" className="wide"/>
                     <p className="title-slide-99">Стратегическая сессия Байкальского Клуба 31 марта 2018</p>
                     <p className="date-slide-99"><img src="time.png"/><span>6 Апр 2018</span></p>
                     <div className="blackout-sl-4"></div>
                   </div>
-                </a>
-                <a href="#" className="box-99 swiper-slide cursorGrab">
+                </div>
+                <div className="box-99 swiper-slide cursorGrab">
                   <div className="thumbnail-99 disableSelect">
                     <img src="img3-199.png" alt="Picture" className="wide"/>
                     <p className="title-slide-99">Стратегическая сессия Байкальского Клуба состоится 31 марта</p>
                     <p className="date-slide-99"><img src="time.png"/><span>22 Мар 2018</span></p>
                     <div className="blackout-sl-4"></div>
                   </div>
-                </a>
-                <a href="#" className="box-99 swiper-slide cursorGrab">
+                </div>
+                <div className="box-99 swiper-slide cursorGrab">
                   <div className="thumbnail-99 disableSelect">
                     <img src="img4-199.png" alt="Picture" className="wide"/>
                     <p className="title-slide-99">Байкал для нас - это и гордость, и наша особая ответственность!</p>
                     <p className="date-slide-99"><img src="time.png"/><span>5 Фев 2018</span></p>
                     <div className="blackout-sl-4"></div>
                   </div>
-                </a>
+                </div>
               </div>
               <div className="swiper-pagination ae-3"></div>
             </div>
-            <button className="button small uppercase round stroke flat white margin-top-4 ae-8">Все новости</button>
+            <Link to="/blog" className="button small uppercase round stroke flat white margin-top-4 ae-8">Все новости</Link>
           </div>
         </Section>
 
@@ -228,7 +229,7 @@ export default class IndexRoute extends Component{
               </h2>
             </div>
           </div>
-          <button className="button small uppercase round stroke flat white margin-top-4 ae-8">Прошедшие мероприятия</button>
+          <Link to="/events" className="button small uppercase round stroke flat white margin-top-4 ae-8">Прошедшие мероприятия</Link>
         </Section>
 
         <Section

@@ -1214,41 +1214,6 @@ export default class Slides extends Component{
     *     Sidebar Panel
     */
 
-      $('.sidebarTrigger[data-sidebar-id]').on('click', function(){
-
-        var sidebarID = $(this).data('sidebar-id');
-        window.showSidebar(sidebarID);
-
-      });
-
-      window.showSidebar = function(id){
-        var sidebarID = id,
-            element = $('.sidebar[data-sidebar-id="' + sidebarID + '"]'),
-            isAnimated = $(element).hasClass('animated');
-
-        if (!window.sidebarShown){
-          if (element.length > 0) {
-            window.sidebarShown = 1;
-            window.allowSlide = 0;
-            $(element).removeClass('animate active').addClass('visible');
-            $html.addClass('sidebarShown sidebar_' + sidebarID);
-            $(element).find('.content').scrollTop(0);
-
-            if (isAnimated){
-              clearTimeout(window.removeAnimationTimeout);
-              setTimeout(function(){
-                $(element).addClass('animate active');
-              },100);
-            }
-          }
-        } else {
-          hideSidebar();
-        }
-
-        //clean up
-        hideDropdown();
-      };
-
       function hideSidebar(){
 
         if (window.sidebarShown || $html.hasClass('sidebarShown')){
@@ -1263,19 +1228,6 @@ export default class Slides extends Component{
           window.allowSlide = 1;
         }
       }
-
-      //Hide on click outside
-      $(document).on('mouseup touchstart', function (e){
-        var container = $(".sidebarShown .sidebar, .dropdownTrigger");
-        if (!container.is(e.target) && container.has(e.target).length === 0 && window.hideSidebarOnBodyClick) {
-          hideSidebar();
-        }
-      });
-
-      //Hide on .close Click
-      $('.sidebar .close, .sidebar [data-sidebar-action="close"]').on('click touchstart', function(){
-        hideSidebar();
-      });
 
 
 
