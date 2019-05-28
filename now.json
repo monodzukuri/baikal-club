@@ -1,12 +1,19 @@
 {
   "version": 2,
   "name": "baikal-club",
-  "alias": "baikal.club",
+  "alias": ["www.baikal.club"],
   "builds": [
     {
       "src": "package.json",
       "use": "@now/static-build",
       "config": { "distDir": "public" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://baikal.club/$1" }
     }
   ]
 }
