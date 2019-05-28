@@ -9,7 +9,7 @@ export default class Events extends Component{
     return(
       <Slides>
         <Header location={this.props.location}/>
-        <Section>
+        <Section classNames = "whiteSlide">
           <h1 className="ae-1 huge">События</h1>
           <p className="ae-2">Здесь будут события</p>
         </Section>

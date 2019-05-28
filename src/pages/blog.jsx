@@ -9,7 +9,7 @@ export default class Blog extends Component{
     return(
       <Slides>
         <Header location={this.props.location}/>
-        <Section>
+        <Section classNames = "whiteSlide">
           <h1 className="ae-1 huge">Блог</h1>
           <p className="ae-2">Здесь будут статьи</p>
         </Section>

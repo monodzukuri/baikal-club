@@ -14,6 +14,7 @@ export default class IndexRoute extends Component{
           background="img/lake-baikal-9.jpg"
           title = "Главная"
           name = "main"
+          classNames = "fade-6 kenBurns"
           >
           <div className="fix-8-12">
             <img className="bclogo margin-bottom-4" src="bc.png" alt="Байкальский клуб"/>
@@ -26,6 +27,7 @@ export default class IndexRoute extends Component{
           background="stock-photo-79222029.webm"
           title = "О клубе"
           name = "about"
+          classNames = "fade-6 kenBurns"
           >
           <div className="fix-10-12 toCenter">
             <h1 className="ae-1">Байкальский клуб основан 30 сентября 2017 года</h1>
@@ -69,6 +71,7 @@ export default class IndexRoute extends Component{
           background="stock-photo-151474665.webm"
           title = "Проекты"
           name = "projects"
+          classNames = "fade-6 kenBurns"
           >
           <div className="fix-10-12 toCenter">
             <h1 className="ae-1">Сейчас в работе 4 проекта</h1>
@@ -144,6 +147,7 @@ export default class IndexRoute extends Component{
           background="img-99.jpg"
           title = "Новости"
           name = "news"
+          classNames = "fade-6 kenBurns"
           >
           <div className="fix-12-12 ae-1">
             <div className="swiper-container-4">
@@ -191,6 +195,7 @@ export default class IndexRoute extends Component{
           background="img-97.jpg"
           title = "Мероприятия"
           name = "events"
+          classNames = "fade-6 kenBurns"
           >
           <div className="fix-10-12 toCenter">
             <h1 className="ae-1">Предстоящие мероприятия</h1>
@@ -236,6 +241,7 @@ export default class IndexRoute extends Component{
           background="stock-photo-299481331.webm"
           title = "Контакты"
           name = "contacts"
+          classNames = "fade-6 kenBurns"
           >
           <div className="fix-10-12">
             <h1 className="ae-1">Байкальский клуб уже объединяет 350 человек</h1>

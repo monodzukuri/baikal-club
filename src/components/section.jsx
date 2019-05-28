@@ -1,7 +1,7 @@
 import React from "react"
 
 export default props =>(
-  <section data-title={props.title} data-name={props.name} className="slide fade-6 kenBurns">
+  <section data-title={props.title} data-name={props.name} className={"slide "+ props.classNames}>
     <div className="content">
       <div className="container">
         <div className="wrap">
