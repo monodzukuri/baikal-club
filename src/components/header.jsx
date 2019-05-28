@@ -19,12 +19,15 @@ export default class Header extends Component{
   };
 
   render(){
-    const html = document.documentElement;
-    if (this.state.sidebarShown){
-      html.classList.add('sidebarShown');
-    }else{
-      html.classList.remove('sidebarShown');
+    if (typeof window !== `undefined`) {
+      const html = document.documentElement;
+      if (this.state.sidebarShown){
+        html.classList.add('sidebarShown');
+      }else{
+        html.classList.remove('sidebarShown');
+      }
     }
+
     const isHomepage = this.props.location.pathname === withPrefix("/");
     return(
       <React.Fragment>
