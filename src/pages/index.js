@@ -149,7 +149,7 @@ export default class IndexRoute extends Component{
               <div className="swiper-wrapper">
                 <a href="#" className="box-99 swiper-slide cursorGrab">
                   <div className="thumbnail-99 disableSelect">
-                    <img src="img1-99.png" alt="Picture" className="wide"/>
+                    <img src="img1-199.png" alt="Picture" className="wide"/>
                     <p className="title-slide-99">Программа общего собрания клуба 6 апреля</p>
                     <p className="date-slide-99"><img src="time.png"/><span>31 Мар 2019</span></p>
                     <div className="blackout-sl-4"></div>
@@ -157,7 +157,7 @@ export default class IndexRoute extends Component{
                 </a>
                 <a href="#" className="box-99 swiper-slide cursorGrab">
                   <div className="thumbnail-99 disableSelect">
-                    <img src="img2-99.png" alt="Picture" className="wide"/>
+                    <img src="img2-199.png" alt="Picture" className="wide"/>
                     <p className="title-slide-99">Стратегическая сессия Байкальского Клуба 31 марта 2018</p>
                     <p className="date-slide-99"><img src="time.png"/><span>6 Апр 2018</span></p>
                     <div className="blackout-sl-4"></div>
@@ -165,7 +165,7 @@ export default class IndexRoute extends Component{
                 </a>
                 <a href="#" className="box-99 swiper-slide cursorGrab">
                   <div className="thumbnail-99 disableSelect">
-                    <img src="img3-99.png" alt="Picture" className="wide"/>
+                    <img src="img3-199.png" alt="Picture" className="wide"/>
                     <p className="title-slide-99">Стратегическая сессия Байкальского Клуба состоится 31 марта</p>
                     <p className="date-slide-99"><img src="time.png"/><span>22 Мар 2018</span></p>
                     <div className="blackout-sl-4"></div>
@@ -173,7 +173,7 @@ export default class IndexRoute extends Component{
                 </a>
                 <a href="#" className="box-99 swiper-slide cursorGrab">
                   <div className="thumbnail-99 disableSelect">
-                    <img src="img4-99.png" alt="Picture" className="wide"/>
+                    <img src="img4-199.png" alt="Picture" className="wide"/>
                     <p className="title-slide-99">Байкал для нас - это и гордость, и наша особая ответственность!</p>
                     <p className="date-slide-99"><img src="time.png"/><span>5 Фев 2018</span></p>
                     <div className="blackout-sl-4"></div>

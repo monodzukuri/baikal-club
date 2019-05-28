@@ -4,7 +4,7 @@ import { Link, withPrefix } from "gatsby"
 export default class Sidebar extends Component{
 
     render(){
-      const isHomepage = this.props.location.pathname === withPrefix("/")
+      const isHomepage = this.props.location.pathname === withPrefix("/");
       const bottom = this.props.bottom;
       const top = isHomepage ? this.props.topMain : this.props.top;
       let mainMenu = "";
@@ -32,7 +32,7 @@ export default class Sidebar extends Component{
       }
 
       return(
-        <nav className="sidebar" data-sidebar-id="1">
+        <nav className="sidebar blue" data-sidebar-id="1">
           <div className="close"><i className="material-icons">close</i></div>
           <div className="content">
             <ul className="mainMenu margin-top-3">
