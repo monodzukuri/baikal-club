@@ -2212,6 +2212,7 @@ export default class Slides extends Component{
           <meta charset="UTF-8"/>
           <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover"/>
           <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta name="yandex-verification" content="5eb58cc3e2139573" />
 
           <title>Байкальский клуб</title>
           <link href="swiper.min.css" rel="stylesheet" type="text/css"/>
